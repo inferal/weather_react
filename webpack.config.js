@@ -1,14 +1,6 @@
-var Dashboard = require('webpack-dashboard');
-var DashboardPlugin = require('webpack-dashboard/plugin');
-var dashboard = new Dashboard();
-
 module.exports = {
     entry: [
         './src/index.js'
-    ],
-
-    plugins: [
-        new DashboardPlugin()
     ],
     output: {
         path: __dirname,
